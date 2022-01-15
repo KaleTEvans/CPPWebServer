@@ -3,5 +3,8 @@
 
 #include <stdio.h>
 
+#include <stdio.h>
+
+#include "Networking/hdelibc-networking.hpp"
 
 #endif 
