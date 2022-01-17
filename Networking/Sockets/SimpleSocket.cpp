@@ -23,12 +23,3 @@ struct sockaddr_in HDE::SimpleSocket::get_address() {
 int HDE::SimpleSocket::get_sock() {
     return sock;
 }
-
-int HDE::SimpleSocket::get_connection() {
-    return connection;
-}
-
-// Setter
-void HDE::SimpleSocket::set_connection(int con) {
-    connection = con;
-}
